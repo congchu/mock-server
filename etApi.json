@@ -1,1 +1,1513 @@
-{"collection":{"info":{"_postman_id":"141495a1-55da-4a96-8548-c5c45e232b54","name":"EverTreasure","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json","updatedAt":"2023-08-29T12:36:48.000Z","uid":"25281805-141495a1-55da-4a96-8548-c5c45e232b54"},"item":[{"name":"articles","item":[{"name":"아티클 리스트","id":"629cc4a7-e071-4f5e-8105-1fb9bed57f5a","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/articles?category=Showcase","host":["{{server_url}}"],"path":["articles"],"query":[{"key":"category","value":"Showcase"}]}},"response":[{"id":"7dbe3757-3a04-4c6f-98ac-1a64083800f5","name":"200 OK","originalRequest":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/articles?category=Showcase","host":["{{server_url}}"],"path":["articles"],"query":[{"key":"category","value":"Showcase"}]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:50:01 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"347"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"\n [\n  {\n    \"id\": 1,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"The Triumph of the Age of\\nthe Idiot\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"A fantastic world of adventure and magic. Thrilling fantasy at its best!\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 2,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80\",\n    \"title\": \"Birdman\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\": \"Love and conflict, a touching novel portraying human nature.\",\n    \"type\": \"video\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 3,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1548081087-a8a3bc4ff088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"A Dream of Iron\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"Terrifying mystery, a gripping thriller with breathless suspense.\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n\n  {\n    \"id\": 4,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"The Shape of Water\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"Emotional separation, a sweetly depicted novel of cherished memories.\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 5,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"A Dream of Iron\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"Adventures in history, an epic historical romance filled with bravery and sacrifice.\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 6,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"The Shape of Water\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"type\": \"image\",\n    \"desciption\":\n      \"Adventures in history, an epic historical romance filled with bravery and sacrifice.\",\n\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  }\n]\n","uid":"25281805-7dbe3757-3a04-4c6f-98ac-1a64083800f5"},{"id":"0e83f0aa-2697-4ed4-9065-bb81a2c58f36","name":"200 OK Copy","originalRequest":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/articles?category=New","host":["{{server_url}}"],"path":["articles"],"query":[{"key":"category","value":"New"}]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:50:01 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"347"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"[\n    {\n        \"title\": \"첫 글입니다.\",\n        \"category\": {\n            \"name\": \"Showcase\"\n        },\n        \"author\": {\n            \"name\": \"Supertester\",\n            \"resume\": \"Hello! I'm a supertester.\",\n            \"picture\": \"https:////authors_pictures/coupon-1.png\"\n        },\n        \"written_at\": \"2023-08-06T14:49:29.857Z\",\n        \"views\": 0,\n        \"likes\": 0,\n        \"shares\": 0,\n        \"thumbnail\": \"https:////articles_thumbnails/coupon-1.png\"\n    }\n]","uid":"25281805-0e83f0aa-2697-4ed4-9065-bb81a2c58f36"}],"uid":"25281805-629cc4a7-e071-4f5e-8105-1fb9bed57f5a"},{"name":"아티클 상세 불러오기","id":"ec6552bf-1235-4c42-9d21-84ea8e7336e6","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/articles/1","host":["{{server_url}}"],"path":["articles","1"]}},"response":[{"id":"7458da93-0ab9-42c2-a3e9-010453db2d07","name":"200 OK","originalRequest":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/articles/1","host":["{{server_url}}"],"path":["articles","1"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:13:50 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"1376"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"previous\":{\n        \"id\":1\n    },\"next\":{\n        \"id\":4\n    },\n    \"article\": {\n        \"id\":3,\n        \"title\": \"첫 글입니다.\",\n        \"category\": {\n            \"name\": \"Showcase\"\n        },\n        \"author\": {\n            \"name\": \"Supertester\",\n            \"resume\": \"Entrepreneur/business owner (ElopementBiz.com). Traveller. Lover of the simple things, always questioning why. Committed to truth, not consistency.\",\n            \"picture\": \"https://evertreasure-web-media.s3.us-east-2.amazonaws.com/authors_pictures/coupon-1.png\"\n        },\n        \"written_at\": \"2023-08-06T14:49:29.857Z\",\n        \"views\": 12,\n        \"likes\": 0,\n        \"shares\": 1,\n        \"thumbnail\": \"https://evertreasure-web-media.s3.us-east-2.amazonaws.com/articles_thumbnails/coupon-1.png\"\n    },\n    \"article_contents\": [\n        {\n            \"order\": 0,\n            \"content_type\": \"text\",\n            \"content_text\": \"In the ever-evolving art world, the emergence of young artists brings a fresh wave of creativity, innovation, and perspectives. This article delves into the significance of recognizing and nurturing the potential of young artists, exploring unique artistic voices, and the impact they can have on the art scene. By celebrating and supporting these rising stars, we contribute to the dynamic and diverse landscape of contemporary art.\",\n            \"content_image\": null,\n            \"content_video\": null\n        },\n        {\n            \"order\": 1,\n            \"content_type\": \"image\",\n            \"content_text\": null,\n            \"content_image\": \"https://evertreasure-web-media.s3.us-east-2.amazonaws.com/article_contents_images/coupon-1.png\",\n            \"content_video\": null\n        },\n        {\n            \"order\": 2,\n            \"content_type\": \"text\",\n            \"content_text\": \"In the ever-evolving art world, the emergence of young artists brings a fresh wave of creativity, innovation, and perspectives. This article delves into the significance of recognizing and nurturing the potential of young artists, exploring unique artistic voices, and the impact they can have on the art scene. By celebrating and supporting these rising stars, we contribute to the dynamic and diverse landscape of contemporary art.\",\n            \"content_image\": null,\n            \"content_video\": null\n        },\n        {\n            \"order\": 3,\n            \"content_type\": \"text\",\n            \"content_text\": \"In the ever-evolving art world, the emergence of young artists brings a fresh wave of creativity, innovation, and perspectives. This article delves into the significance of recognizing and nurturing the potential of young artists, exploring unique artistic voices, and the impact they can have on the art scene. By celebrating and supporting these rising stars, we contribute to the dynamic and diverse landscape of contemporary art.\",\n            \"content_image\": null,\n            \"content_video\": null\n        }\n    ],\n    \"article_comments\": [\n        {\n            \"author\": {\n                \"email\": \"wow3@naver.com\",\n                \"name\": \"아이ㅇ\",\n                \"picture\": \"https://images.unsplash.com/photo-1687360440648-ec9708d52086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80\",\n                \"selective_terms\": true\n            },\n            \"content\": \"첫번째 코멘트다 대단하지?\",\n            \"created_at\": \"2023-08-06T15:13:44.632Z\"\n        },\n        {\n            \"author\": {\n                \"email\": \"wow@naver.com\",\n                \"name\": \"name\",\n                \"picture\": null,\n                \"selective_terms\": true\n            },\n            \"content\": \"wow wat a nioce article!\",\n            \"created_at\": \"2023-08-06T15:13:42.077Z\"\n        }\n    ]\n}","uid":"25281805-7458da93-0ab9-42c2-a3e9-010453db2d07"}],"uid":"25281805-ec6552bf-1235-4c42-9d21-84ea8e7336e6"},{"name":"아티클 코멘트 추가하기","id":"05145a79-2c68-40c4-b963-382db6dc6a74","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\"content\":\"첫번째 코멘트다 대단하지?\"}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/articles/1/comments","host":["{{server_url}}"],"path":["articles","1","comments"]}},"response":[{"id":"02622cb8-dcdf-4c1b-915f-57bc0b38467b","name":"200 OK","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\"content\":\"첫번째 코멘트다 대단하지?\"}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/articles/1/comments","host":["{{server_url}}"],"path":["articles","1","comments"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:13:44 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"30"},{"key":"Vary","value":"Cookie"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"comment posted.\"\n}","uid":"25281805-02622cb8-dcdf-4c1b-915f-57bc0b38467b"}],"uid":"25281805-05145a79-2c68-40c4-b963-382db6dc6a74"},{"name":"아티클 좋아요","id":"f546e5d8-cfb0-4143-93ac-102becce371b","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"url":{"raw":"{{server_url}}/articles/3/likes","host":["{{server_url}}"],"path":["articles","3","likes"]}},"response":[],"uid":"25281805-f546e5d8-cfb0-4143-93ac-102becce371b"},{"name":"아티클 좋아요 제거","id":"c4cf8047-da59-4943-b94e-a18130340f7c","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"DELETE","header":[],"url":{"raw":"{{server_url}}/articles/1/likes","host":["{{server_url}}"],"path":["articles","1","likes"]}},"response":[],"uid":"25281805-c4cf8047-da59-4943-b94e-a18130340f7c"},{"name":"배너리스트","id":"62059ef8-d677-4777-a699-0fff4486b688","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"url":{"raw":"{{server_url}}/articles/1/shares","host":["{{server_url}}"],"path":["articles","1","shares"]}},"response":[{"id":"69ab75e6-d8b7-459f-ae3d-7698f22aa8ce","name":"200 OK","originalRequest":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/banners","host":["{{server_url}}"],"path":["banners"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:11:13 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"529"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":" [\n  {\n    \"article_id\": 1,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"1111\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"description\": \"abcd\"\n  },\n  {\n    \"article_id\": 2,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80\",\n    \"title\": \"The Triumph of the Age of \\nthe Idiot 1\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80\"\n    },\n    \"description\": \"abcd\"\n  },\n  {\n    \"article_id\": 3,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1548081087-a8a3bc4ff088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"The Triumph of the Age of\\nthe Idiot 2\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1548081087-a8a3bc4ff088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"description\": \"abcd\"\n  },\n\n  {\n    \"article_id\": 4,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"The Triumph of the Age of \\nthe Idiot 3\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\"\n    },\n    \"description\": \"abcd\"\n  }\n]","uid":"25281805-69ab75e6-d8b7-459f-ae3d-7698f22aa8ce"}],"uid":"25281805-62059ef8-d677-4777-a699-0fff4486b688"},{"name":"아티클 공유하기","id":"5600b771-c18d-4d7a-8e8b-292dd87d5153","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"url":{"raw":"{{server_url}}/articles/1/shares","host":["{{server_url}}"],"path":["articles","1","shares"]}},"response":[{"id":"2ddb30a6-cbf2-4612-8fe4-e7eec60104dd","name":"201 Created","originalRequest":{"method":"POST","header":[],"url":{"raw":"{{server_url}}/articles/1/shares","host":["{{server_url}}"],"path":["articles","1","shares"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:00:26 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"30"},{"key":"Vary","value":"Cookie"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"article shared.\"\n}","uid":"25281805-2ddb30a6-cbf2-4612-8fe4-e7eec60104dd"}],"uid":"25281805-5600b771-c18d-4d7a-8e8b-292dd87d5153"}],"id":"0b1c1bb4-2e46-46d0-a6e1-b655dcfd7fbb","uid":"25281805-0b1c1bb4-2e46-46d0-a6e1-b655dcfd7fbb"},{"name":"users","item":[{"name":"users 회원가입","id":"ae7cae95-9dfc-4c8e-b920-6152a25669db","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow4@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"baby\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users","host":["{{server_url}}"],"path":["users"]}},"response":[{"id":"acb63c23-c74e-42a6-b09b-efac0365a400","name":"201 Created","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/api/users","host":["{{server_url}}"],"path":["api","users"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:42:35 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"37"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user has been created.\"\n}","uid":"25281805-acb63c23-c74e-42a6-b09b-efac0365a400"}],"uid":"25281805-ae7cae95-9dfc-4c8e-b920-6152a25669db"},{"name":"비밀번호 수정","id":"6c499d0f-0f84-4f71-a30d-44d1853102c6","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"PUT","header":[],"body":{"mode":"raw","raw":" { \"password\": \"testtest2!\" }","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/api/users/password-reset-requests/:password_reset_key","host":["{{server_url}}"],"path":["api","users","password-reset-requests",":password_reset_key"],"variable":[{"key":"password_reset_key","value":""}]}},"response":[{"id":"2a622a23-e1b8-48dc-bf7a-752e37472319","name":"201 Created","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/api/users","host":["{{server_url}}"],"path":["api","users"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:42:35 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"37"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user has been created.\"\n}","uid":"25281805-2a622a23-e1b8-48dc-bf7a-752e37472319"}],"uid":"25281805-6c499d0f-0f84-4f71-a30d-44d1853102c6"},{"name":"구글 회원가입","id":"6fbb72a8-5a82-440a-8373-789fa685e210","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow4@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"baby\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users","host":["{{server_url}}"],"path":["users"]}},"response":[{"id":"87d3462e-cfb4-4cfa-b4e2-6ed922ceaa7d","name":"201 Created","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/api/users","host":["{{server_url}}"],"path":["api","users"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:42:35 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"37"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user has been created.\"\n}","uid":"25281805-87d3462e-cfb4-4cfa-b4e2-6ed922ceaa7d"}],"uid":"25281805-6fbb72a8-5a82-440a-8373-789fa685e210"},{"name":"이메일 인증 재전송","id":"33b25dd7-2bca-4286-a684-1892b31d3536","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n    \"email\": \"yamsang007@naver.com\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/activation-requests","host":["{{server_url}}"],"path":["users","activation-requests"]}},"response":[{"id":"036cd66b-e43e-475b-97fe-f2f25cfdc6b7","name":"201 Created","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/api/users","host":["{{server_url}}"],"path":["api","users"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:42:35 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"37"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user has been created.\"\n}","uid":"25281805-036cd66b-e43e-475b-97fe-f2f25cfdc6b7"}],"uid":"25281805-33b25dd7-2bca-4286-a684-1892b31d3536"},{"name":"구글 로그인","id":"55bc932e-5f86-4e8c-83c2-eebbc7465788","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow4@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"baby\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users","host":["{{server_url}}"],"path":["users"]}},"response":[{"id":"fe475104-52ba-4963-8f71-60279419e2a3","name":"201 Created","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/api/users","host":["{{server_url}}"],"path":["api","users"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:42:35 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"37"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user has been created.\"\n}","uid":"25281805-fe475104-52ba-4963-8f71-60279419e2a3"}],"uid":"25281805-55bc932e-5f86-4e8c-83c2-eebbc7465788"},{"name":"자동 로그인","id":"3945288c-a682-4eb4-b1e5-646276115cc6","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{ \"session_id\": \"SxzWXVmghMShpRKg1ibQ75O6syPOWA8M91tBkv6qisPo6jD2mPqaBaFtRz7vhZQf47JjvRlVSO9n9Bk63Kq4hJocw1oWpc8sTJBiW4XUA6g6iBzZCPTlawhhpUrKpvD5owpJZLuTHU1yG5jfSk9LCRxJFRv3p5Mjt6DtCVfyFgcQyssMN36ETHUM4qttc9DzUS6c8x1PZHQGdWy1vIPjqv1cOzRH9B2buzNYRhZktkum0l2OchK6Rvz7VsNmk2T\" }","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/saved-sessions","host":["{{server_url}}"],"path":["users","saved-sessions"]}},"response":[{"id":"085f4e84-f545-41a6-b37b-553aafae9108","name":"200 OK","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{ \"session_id\": \"SFHP31iIa1SQu7zVrffbSbYt18SEFzzFv8c97J6PIFtE4LbIEfFZLOqvS4k6g4qArcpmGLOJblsmZK0yvBtuFtr5tl29owIOw54ecayifZK7HuOZnIvYioj8j2tzG20ADQEIj7yLTNRs9sVJrzZQpVRT1yHioBkV4WXPtC8v6pNPaLjGbFLleKhNUgHgYFNyGOoD9RcO2vUhGUjyt4Cftva9ioDDuTFXfOc0nyugrsZrS2MjGHqoM7wNsWDYcqx\" }","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/saved-sessions","host":["{{server_url}}"],"path":["users","saved-sessions"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:49:22 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"30"},{"key":"Vary","value":"Cookie"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"},{"key":"Set-Cookie","value":"sessionid=sgkd6hyyjx3ovyih2lsthe4hu1ki4f8x; expires=Sun, 06 Aug 2023 16:49:21 GMT; HttpOnly; Max-Age=3599; Path=/; SameSite=Lax"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user logged in.\"\n}","uid":"25281805-085f4e84-f545-41a6-b37b-553aafae9108"}],"uid":"25281805-3945288c-a682-4eb4-b1e5-646276115cc6"},{"name":"로그인","id":"52350881-5360-43b2-b1a9-31aaaa7fe139","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow5@naver.com\",\n\t\"password\": \"testtest!\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/sessions","host":["{{server_url}}"],"path":["users","sessions"]}},"response":[{"id":"2a5b1268-44da-4971-a312-34e07995b732","name":"201 Created","originalRequest":{"method":"POST","header":[],"body":{"mode":"raw","raw":"{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/sessions","host":["{{server_url}}"],"path":["users","sessions"]}},"status":"Created","code":201,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:18:05 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"30"},{"key":"Vary","value":"Cookie"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"},{"key":"Set-Cookie","value":"sessionid=piqe1dcs4w9on1y1ein98y2ecovu31dn; expires=Sun, 06 Aug 2023 16:18:04 GMT; HttpOnly; Max-Age=3599; Path=/; SameSite=Lax"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user logged in.\"\n}","uid":"25281805-2a5b1268-44da-4971-a312-34e07995b732"}],"uid":"25281805-52350881-5360-43b2-b1a9-31aaaa7fe139"},{"name":"회원 정보","id":"0570ab28-9ad3-4331-a6ef-b90e2d77f4ef","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/profile","host":["{{server_url}}"],"path":["profile"]}},"response":[{"id":"c7f6101d-c674-4ca8-b965-04dfaf5d34d6","name":"200 OK","originalRequest":{"method":"PATCH","header":[],"body":{"mode":"raw","raw":"{\n    \"email\":\"wow2@naver.com\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/password","host":["{{server_url}}"],"path":["users","password"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 14:36:10 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"46"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"password has been re-generated.\"\n}","uid":"25281805-c7f6101d-c674-4ca8-b965-04dfaf5d34d6"}],"uid":"25281805-0570ab28-9ad3-4331-a6ef-b90e2d77f4ef"},{"name":"패스워드 리셋 (메일서버 필요)","id":"91772ba3-10ba-4cd9-9730-94cd93eda76f","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"PATCH","header":[],"body":{"mode":"raw","raw":"{\n    \"email\":\"wow2@naver.com\"\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/users/password","host":["{{server_url}}"],"path":["users","password"]}},"response":[{"id":"cf299416-cefe-485c-95c2-5a14922e2f2d","name":"New Request","originalRequest":{"method":"GET","header":[],"url":{"raw":"{{server_url}}/profile","host":["{{server_url}}"],"path":["profile"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:43:42 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"87"},{"key":"Vary","value":"Cookie"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"}],"cookie":[],"responseTime":null,"body":"{\n    \"email\": \"wow5@naver.com\",\n    \"name\": \"kookoo\",\n    \"picture\": null,\n    \"selective_terms\": true\n}","uid":"25281805-cf299416-cefe-485c-95c2-5a14922e2f2d"}],"uid":"25281805-91772ba3-10ba-4cd9-9730-94cd93eda76f"},{"name":"동의 약관","id":"b99effdc-32e6-49a8-bd76-48730b210b8f","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"PATCH","header":[],"body":{"mode":"raw","raw":"{\n    \"selective_terms\":false\n}","options":{"raw":{"language":"json"}}},"url":{"raw":"{{server_url}}/profile/selective_terms","host":["{{server_url}}"],"path":["profile","selective_terms"]}},"response":[],"uid":"25281805-b99effdc-32e6-49a8-bd76-48730b210b8f"},{"name":"로그아웃 user/session/","id":"5bdac5f5-0da4-45ba-9369-8b514b40cc18","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"DELETE","header":[],"url":{"raw":"{{server_url}}/user/session","host":["{{server_url}}"],"path":["user","session"]}},"response":[{"id":"bedd1a1a-2785-4bad-a23d-52862955bbdb","name":"200 OK","originalRequest":{"method":"DELETE","header":[],"url":{"raw":"{{server_url}}/user/session","host":["{{server_url}}"],"path":["user","session"]}},"status":"OK","code":200,"_postman_previewlanguage":"json","header":[{"key":"Date","value":"Sun, 06 Aug 2023 15:19:14 GMT"},{"key":"Server","value":"WSGIServer/0.2 CPython/3.11.4"},{"key":"Content-Type","value":"application/json"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Content-Length","value":"31"},{"key":"Vary","value":"Cookie"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"same-origin"},{"key":"Cross-Origin-Opener-Policy","value":"same-origin"},{"key":"Set-Cookie","value":"sessionid=\"\"; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/; SameSite=Lax"}],"cookie":[],"responseTime":null,"body":"{\n    \"message\": \"user logged out.\"\n}","uid":"25281805-bedd1a1a-2785-4bad-a23d-52862955bbdb"}],"uid":"25281805-5bdac5f5-0da4-45ba-9369-8b514b40cc18"}],"id":"9b1cec40-d968-42f6-9919-985ed61959a5","uid":"25281805-9b1cec40-d968-42f6-9919-985ed61959a5"}],"event":[{"listen":"prerequest","script":{"id":"6f3facbc-970c-475e-a8f5-bb8e853efa6c","type":"text/javascript","exec":[""]}},{"listen":"test","script":{"id":"c7ab2d7b-1f6c-420f-be3e-4575e18fcbae","type":"text/javascript","exec":[""]}}],"variable":[{"id":"9224a4ec-efa7-4479-adf3-3169555d17dd","key":"server_url","value":"https://dev-api.evertreasure.xyz/api","type":"string"}]}}
+{
+	"info": {
+		"_postman_id": "141495a1-55da-4a96-8548-c5c45e232b54",
+		"name": "EverTreasure",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25281805"
+	},
+	"item": [
+		{
+			"name": "articles",
+			"item": [
+				{
+					"name": "아티클 리스트",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/articles?category=Showcase",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "Showcase"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/articles?category=Showcase",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"articles"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "Showcase"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:50:01 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "347"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "\n [\n  {\n    \"id\": 1,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"The Triumph of the Age of\\nthe Idiot\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"A fantastic world of adventure and magic. Thrilling fantasy at its best!\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 2,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80\",\n    \"title\": \"Birdman\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\": \"Love and conflict, a touching novel portraying human nature.\",\n    \"type\": \"video\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 3,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1548081087-a8a3bc4ff088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"A Dream of Iron\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"Terrifying mystery, a gripping thriller with breathless suspense.\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n\n  {\n    \"id\": 4,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"The Shape of Water\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"Emotional separation, a sweetly depicted novel of cherished memories.\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 5,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"A Dream of Iron\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"desciption\":\n      \"Adventures in history, an epic historical romance filled with bravery and sacrifice.\",\n    \"type\": \"image\",\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  },\n  {\n    \"id\": 6,\n    \"category\": {\n      \"name\": \"Category\"\n    },\n    \"thumbnail\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"The Shape of Water\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"hi\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"type\": \"image\",\n    \"desciption\":\n      \"Adventures in history, an epic historical romance filled with bravery and sacrifice.\",\n\n    \"written_at\": \"5d ago\",\n    \"views\": 3,\n    \"likes\": 3,\n    \"shares\": 100,\n    \"playtime\": \"13:00\"\n  }\n]\n"
+						},
+						{
+							"name": "200 OK Copy",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/articles?category=New",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"articles"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "New"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:50:01 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "347"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"title\": \"첫 글입니다.\",\n        \"category\": {\n            \"name\": \"Showcase\"\n        },\n        \"author\": {\n            \"name\": \"Supertester\",\n            \"resume\": \"Hello! I'm a supertester.\",\n            \"picture\": \"https:////authors_pictures/coupon-1.png\"\n        },\n        \"written_at\": \"2023-08-06T14:49:29.857Z\",\n        \"views\": 0,\n        \"likes\": 0,\n        \"shares\": 0,\n        \"thumbnail\": \"https:////articles_thumbnails/coupon-1.png\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "아티클 상세 불러오기",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/articles/1",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/articles/1",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"articles",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:13:50 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1376"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"previous\":{\n        \"id\":1\n    },\"next\":{\n        \"id\":4\n    },\n    \"article\": {\n        \"id\":3,\n        \"title\": \"첫 글입니다.\",\n        \"category\": {\n            \"name\": \"Showcase\"\n        },\n        \"author\": {\n            \"name\": \"Supertester\",\n            \"resume\": \"Entrepreneur/business owner (ElopementBiz.com). Traveller. Lover of the simple things, always questioning why. Committed to truth, not consistency.\",\n            \"picture\": \"https://evertreasure-web-media.s3.us-east-2.amazonaws.com/authors_pictures/coupon-1.png\"\n        },\n        \"written_at\": \"2023-08-06T14:49:29.857Z\",\n        \"views\": 12,\n        \"likes\": 0,\n        \"shares\": 1,\n        \"thumbnail\": \"https://evertreasure-web-media.s3.us-east-2.amazonaws.com/articles_thumbnails/coupon-1.png\"\n    },\n    \"article_contents\": [\n        {\n            \"order\": 0,\n            \"content_type\": \"text\",\n            \"content_text\": \"In the ever-evolving art world, the emergence of young artists brings a fresh wave of creativity, innovation, and perspectives. This article delves into the significance of recognizing and nurturing the potential of young artists, exploring unique artistic voices, and the impact they can have on the art scene. By celebrating and supporting these rising stars, we contribute to the dynamic and diverse landscape of contemporary art.\",\n            \"content_image\": null,\n            \"content_video\": null\n        },\n        {\n            \"order\": 1,\n            \"content_type\": \"image\",\n            \"content_text\": null,\n            \"content_image\": \"https://evertreasure-web-media.s3.us-east-2.amazonaws.com/article_contents_images/coupon-1.png\",\n            \"content_video\": null\n        },\n        {\n            \"order\": 2,\n            \"content_type\": \"text\",\n            \"content_text\": \"In the ever-evolving art world, the emergence of young artists brings a fresh wave of creativity, innovation, and perspectives. This article delves into the significance of recognizing and nurturing the potential of young artists, exploring unique artistic voices, and the impact they can have on the art scene. By celebrating and supporting these rising stars, we contribute to the dynamic and diverse landscape of contemporary art.\",\n            \"content_image\": null,\n            \"content_video\": null\n        },\n        {\n            \"order\": 3,\n            \"content_type\": \"text\",\n            \"content_text\": \"In the ever-evolving art world, the emergence of young artists brings a fresh wave of creativity, innovation, and perspectives. This article delves into the significance of recognizing and nurturing the potential of young artists, exploring unique artistic voices, and the impact they can have on the art scene. By celebrating and supporting these rising stars, we contribute to the dynamic and diverse landscape of contemporary art.\",\n            \"content_image\": null,\n            \"content_video\": null\n        }\n    ],\n    \"article_comments\": [\n        {\n            \"author\": {\n                \"email\": \"wow3@naver.com\",\n                \"name\": \"아이ㅇ\",\n                \"picture\": \"https://images.unsplash.com/photo-1687360440648-ec9708d52086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80\",\n                \"selective_terms\": true\n            },\n            \"content\": \"첫번째 코멘트다 대단하지?\",\n            \"created_at\": \"2023-08-06T15:13:44.632Z\"\n        },\n        {\n            \"author\": {\n                \"email\": \"wow@naver.com\",\n                \"name\": \"name\",\n                \"picture\": null,\n                \"selective_terms\": true\n            },\n            \"content\": \"wow wat a nioce article!\",\n            \"created_at\": \"2023-08-06T15:13:42.077Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "아티클 코멘트 추가하기",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"content\":\"첫번째 코멘트다 대단하지?\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/articles/1/comments",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles",
+								"1",
+								"comments"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"content\":\"첫번째 코멘트다 대단하지?\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/articles/1/comments",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"articles",
+										"1",
+										"comments"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:13:44 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "30"
+								},
+								{
+									"key": "Vary",
+									"value": "Cookie"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"comment posted.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "아티클 좋아요",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/articles/3/likes",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles",
+								"3",
+								"likes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "아티클 좋아요 제거",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/articles/1/likes",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles",
+								"1",
+								"likes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "배너리스트",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/articles/1/shares",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles",
+								"1",
+								"shares"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/banners",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"banners"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:11:13 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "529"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": " [\n  {\n    \"article_id\": 1,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"1111\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1606148267475-6c13e4cdb56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"description\": \"abcd\"\n  },\n  {\n    \"article_id\": 2,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80\",\n    \"title\": \"The Triumph of the Age of \\nthe Idiot 1\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80\"\n    },\n    \"description\": \"abcd\"\n  },\n  {\n    \"article_id\": 3,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1548081087-a8a3bc4ff088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\",\n    \"title\": \"The Triumph of the Age of\\nthe Idiot 2\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1548081087-a8a3bc4ff088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80\"\n    },\n    \"description\": \"abcd\"\n  },\n\n  {\n    \"article_id\": 4,\n    \"category\": { \"name\": \"Category\" },\n    \"image\":\n      \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\",\n    \"title\": \"The Triumph of the Age of \\nthe Idiot 3\",\n    \"author\": {\n      \"name\": \"Kelvin Kyung Kun Park\",\n      \"resume\": \"happy\",\n      \"picture\":\n        \"https://images.unsplash.com/photo-1536924940846-227afb31e2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1166&q=80\"\n    },\n    \"description\": \"abcd\"\n  }\n]"
+						}
+					]
+				},
+				{
+					"name": "아티클 공유하기",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/articles/1/shares",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"articles",
+								"1",
+								"shares"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/articles/1/shares",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"articles",
+										"1",
+										"shares"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:00:26 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "30"
+								},
+								{
+									"key": "Vary",
+									"value": "Cookie"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"article shared.\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "users 회원가입",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"wow4@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"baby\",\n\t\"selective_terms\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/api/users",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:42:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "37"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user has been created.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "비밀번호 수정",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " { \"password\": \"testtest2!\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/api/users/password-reset-requests/:password_reset_key",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"password-reset-requests",
+								":password_reset_key"
+							],
+							"variable": [
+								{
+									"key": "password_reset_key",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/api/users",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:42:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "37"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user has been created.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "구글 회원가입",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"wow4@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"baby\",\n\t\"selective_terms\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/api/users",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:42:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "37"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user has been created.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "이메일 인증 재전송",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"yamsang007@naver.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users/activation-requests",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users",
+								"activation-requests"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/api/users",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:42:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "37"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user has been created.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "구글 로그인",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"wow4@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"baby\",\n\t\"selective_terms\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\",\n\t\"name\": \"lol-code\",\n\t\"selective_terms\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/api/users",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:42:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "37"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user has been created.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "자동 로그인",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"session_id\": \"SxzWXVmghMShpRKg1ibQ75O6syPOWA8M91tBkv6qisPo6jD2mPqaBaFtRz7vhZQf47JjvRlVSO9n9Bk63Kq4hJocw1oWpc8sTJBiW4XUA6g6iBzZCPTlawhhpUrKpvD5owpJZLuTHU1yG5jfSk9LCRxJFRv3p5Mjt6DtCVfyFgcQyssMN36ETHUM4qttc9DzUS6c8x1PZHQGdWy1vIPjqv1cOzRH9B2buzNYRhZktkum0l2OchK6Rvz7VsNmk2T\" }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users/saved-sessions",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users",
+								"saved-sessions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"session_id\": \"SFHP31iIa1SQu7zVrffbSbYt18SEFzzFv8c97J6PIFtE4LbIEfFZLOqvS4k6g4qArcpmGLOJblsmZK0yvBtuFtr5tl29owIOw54ecayifZK7HuOZnIvYioj8j2tzG20ADQEIj7yLTNRs9sVJrzZQpVRT1yHioBkV4WXPtC8v6pNPaLjGbFLleKhNUgHgYFNyGOoD9RcO2vUhGUjyt4Cftva9ioDDuTFXfOc0nyugrsZrS2MjGHqoM7wNsWDYcqx\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/users/saved-sessions",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"users",
+										"saved-sessions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:49:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "30"
+								},
+								{
+									"key": "Vary",
+									"value": "Cookie"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "sessionid=sgkd6hyyjx3ovyih2lsthe4hu1ki4f8x; expires=Sun, 06 Aug 2023 16:49:21 GMT; HttpOnly; Max-Age=3599; Path=/; SameSite=Lax"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user logged in.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "로그인",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"wow5@naver.com\",\n\t\"password\": \"testtest!\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users/sessions",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users",
+								"sessions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "201 Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"wow3@naver.com\",\n\t\"password\": \"testtest!\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/users/sessions",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"users",
+										"sessions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:18:05 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "30"
+								},
+								{
+									"key": "Vary",
+									"value": "Cookie"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "sessionid=piqe1dcs4w9on1y1ein98y2ecovu31dn; expires=Sun, 06 Aug 2023 16:18:04 GMT; HttpOnly; Max-Age=3599; Path=/; SameSite=Lax"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user logged in.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "회원 정보",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/profile",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\":\"wow2@naver.com\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server_url}}/users/password",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"users",
+										"password"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 14:36:10 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "46"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"password has been re-generated.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "패스워드 리셋 (메일서버 필요)",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"wow2@naver.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/users/password",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"users",
+								"password"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/profile",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:43:42 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "87"
+								},
+								{
+									"key": "Vary",
+									"value": "Cookie"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"email\": \"wow5@naver.com\",\n    \"name\": \"kookoo\",\n    \"picture\": null,\n    \"selective_terms\": true\n}"
+						}
+					]
+				},
+				{
+					"name": "동의 약관",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"selective_terms\":false\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/profile/selective_terms",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"profile",
+								"selective_terms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "로그아웃 user/session/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/user/session",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"user",
+								"session"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "200 OK",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/user/session",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										"user",
+										"session"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 06 Aug 2023 15:19:14 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "WSGIServer/0.2 CPython/3.11.4"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Length",
+									"value": "31"
+								},
+								{
+									"key": "Vary",
+									"value": "Cookie"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Cross-Origin-Opener-Policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "sessionid=\"\"; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/; SameSite=Lax"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"user logged out.\"\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server_url",
+			"value": "https://dev-api.evertreasure.xyz/api",
+			"type": "string"
+		}
+	]
+}
